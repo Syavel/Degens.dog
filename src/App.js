@@ -1,10 +1,9 @@
 import './App.css';
-const img = require("./../public/apedog.jpg")
 
 function App() {
   return (
     <div className="App">
-      <img src={img}/>
+      <img src="apedog.jpg"/>
       Soon 👀
     </div>
   );
